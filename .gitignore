@@ -1,0 +1,106 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.bak
+*.tmp
+
+# KiCad specific
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*-cache.lib
+*-rescue.lib
+*.kicad_pcb.kicad_pcb
+*.kicad_sch.kicad_sch
+*.bzr.log
+*~.kicad_pcb
+*~.kicad_sch
+
+# Eagle specific
+*.b#?
+*.s#?
+*.l#?
+
+# Output files (KiCad)
+*.pdf
+*.zip
+*.tar.gz
+
+# Gerber files (usually want to keep these)
+# *.gbr
+# *.gbl
+# *.gts
+# *.bts
+
+# Simulation Output
+*.log
+*.raw
+*.cir.out
+*.sim
+
+# Audio Files (large files - optional)
+# *.wav
+# *.mp3
+# *.flac
+
+# OS-specific
+.project
+.classpath
+.settings/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Node (if any scripts)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# LTSpice
+*.cir
+*.sp
+*.net
+*.lst
+
+# Temporary files
+*.temp
+*.tmp
+*.backup
+
+# Exports
+exports/
+*.gerber
+*.centroid
+
+# Large binary files (if using git-lfs)
+# *.wav
+# *.mp3
+# *.zip
+
