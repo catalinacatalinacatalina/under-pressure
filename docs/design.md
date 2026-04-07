@@ -12,10 +12,33 @@ TO-DO - EXPLAIN CIRCUIT ARCH AND REVISE SCHEMATICS ARE LINKED
 
 ## Component List
 
-TO-DO - FILL THIS
+| Component | Value | Qty |
+|-----------|-------|-----|
+| **OPERATIONAL AMPLIFIERS** | | |
+| TL072 Operational Amplifier | - | 2 |
+| **CAPACITORS** | | |
+| Radial Electrolytic Capacitor | 47µF | 2 |
+| Ceramic Disc Capacitor | 100pF | 2 |
+| Ceramic Disc Capacitor | 22nF | 4 | 
+| Ceramic Disc Capacitor | 47pF | 1 | 
+| X7R Multilayer Ceramic Capacitor | 680nF | 1 | 
+| Tantalum Electrolytic Capacitor | 0.47µF | 2 | 
+| **RESISTORS AND POTENTIOMETERS** | | |
+| Carbon Film Resistor 1/4W | 10KΩ | 1 | 
+| Carbon Film Resistor 1/4W | 1KΩ | 1 | 
+| Carbon Film Resistor 1/2W | 1MΩ | 1 | 
+| Carbon Film Resistor 1/2W | 2.2KΩ | 1 | 
+| Carbon Film Resistor 1/2W | 4.7KΩ | 1 | 
+| Carbon Film Resistor 1/2W | 680KΩ | 1 |
+| Potentiometer | 100KΩ Linear | 1 |
+| **POWER SUPPLY** | | |
+| Panasonic 9V Alkaline Battery | - | 1 |
+| 9V Battery Holder with Wire | - | 1 | 
+| **INPUT/OUTPUT** | | |
+| 5mm Red Diffuse LED | - | 2 |
+| Female Jack Connector | - | 2 | 
 
-| Ref | Component | Value | Qty | Purpose |
-|-----|-----------|-------|-----|---------|
+
 
 
 
