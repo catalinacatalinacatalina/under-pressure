@@ -11,13 +11,13 @@
 - [x] All components sourced
 - [ ] Breadboard layout sketched
 - [x] Power supply tested (should output 9V)
-- [ ] Multimeter available for testing
+- [x] Multimeter available for testing
 
 ### Power Supply Stage
-- [ ] 9V battery or regulated supply connected
-- [ ] Vref (virtual ground) at approximately 4.5V
-- [ ] Decoupling capacitors placed
-- [ ] No voltage drops on ground rail
+- [x] 9V battery or regulated supply connected
+- [x] Vref (virtual ground) at approximately 4.5V
+- [x] Decoupling capacitors placed
+- [x] No voltage drops on ground rail
 
 ### Input Stage
 - [ ] Input capacitor functional

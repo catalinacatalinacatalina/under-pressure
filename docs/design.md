@@ -8,10 +8,15 @@ This is a minimal-parts-count analog distortion circuit based on Brian Wampler's
 
 ## Circuit Architecture
 
-TO-DO - EXPLAIN CIRCUIT ARCH AND REVISE SCHEMATICS ARE LINKED
+![](../hardware/schematics/stages.png)
+
+The circuit consists of three main stages: the **Power Supply** stage provides DC power to all circuit components, the **Distortion Core** implements two gain stages with clipping diodes to shape the distortion character, and the **Output Buffer** provides final amplification with impedance buffering for clean output.
+
+The intersection in all three stages is **vref** in the original schematic.
 
 ## Component List
 
+### Breadboard Phase
 | Component | Value | Qty |
 |-----------|-------|-----|
 | **OPERATIONAL AMPLIFIERS** | | |
@@ -38,11 +43,11 @@ TO-DO - EXPLAIN CIRCUIT ARCH AND REVISE SCHEMATICS ARE LINKED
 | 5mm Red Diffuse LED | - | 2 |
 | Female Jack Connector | - | 2 | 
 
-
+### PCB Phase
+It is hardly recommended in terms of space to use PCB components, but in order to mantain simplicity i'm going to use the same components of the breadboard phase. Please keep this in mind if you use the KiCad archive or if you print the PCB.
 
 
 
 ## Modifications from Wampler's Original
-
 1. This version excludes stage IV for simplicity.
 2. Small changes in capacitors due to the lack of capacitors when buyed

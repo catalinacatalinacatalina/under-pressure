@@ -8,19 +8,19 @@ This project is divided into **two distinct phases**, each with its own workflow
 
 1. **Phase 01: Breadboard Prototype** - Testing and validation on solderless breadboard
 2. **Phase 02: PCB Design** - Professional PCB layout and manufacturing
+3. **Phase 03: PCB Soldering** - Attaching the components to the designed PCB
 
 ## 📐 Circuit Architecture
 
-- ⚡ **Power Supply**: 9V battery with virtual ground (Vref) biasing
-- 📈 **Stage 1**: 
-- 🔴 **Stage 2**: 
-- 🎚️ **Stage 3**: 
+- ⚡ **Stage 1**: 9V battery with virtual ground (Vref) biasing
+- 📈 **Stage 2**: implements two gain stages with clipping diodes to shape the distortion character
+- 🎚️ **Stage 3**: provides final amplification with impedance buffering for clean output
 
 ## 📂 Project Structure
 
 TODO - FILL
 
-## � Quick Start
+## 🚀 Quick Start
 
 ### For Breadboard (Phase 01)
 
@@ -32,38 +32,41 @@ TODO - FILL
 
 ### For PCB Design (Phase 02)
 
-⏳ **Start after Phase 01 is complete and validated**
+1. Use KiCad to create schematics
+2. Design PCB layout
+3. Generate Gerber files
+4. Order from PCB manufacturer
+5. Solder components to PCB
 
-1. Read: [phase-02-pcb-design/README.md](phase-02-pcb-design/README.md)
-2. Use KiCad to create schematics
-3. Design PCB layout
-4. Generate Gerber files
-5. Order from PCB manufacturer
+### For PCB Soldering (Phase 03)
+...
+
 
 ## 📚 Documentation Roadmap
 
 ```
-PHASE 01: Breadboard                    PHASE 02: PCB Design
-├── ✅ Understand circuit               ├── ✅ Verify breadboard values
-├── ✅ Source components                ├── ✅ Create schematic in KiCad
-├── ✅ Build on breadboard              ├── ✅ Design PCB layout
-├── ✅ Test audio & tone                ├── ✅ Run design rule check (DRC)
+PHASE 01: Breadboard                    PHASE 02: PCB Design                    PHASE 03: PCB Soldering
+├── ✅ Understand circuit               ├── ✅ Verify breadboard values         ├── ✅ Prepare soldering tools
+├── ✅ Source components                ├── ✅ Create schematic in KiCad        ├── ✅ Solder components
+├── ✅ Build on breadboard              ├── ✅ Design PCB layout                ├── ✅ Inspect solder joints
+├── ✅ Test audio and tone              ├── ✅ Run design rule check (DRC)      └── ✅ Test PCB functionality
 ├── ✅ Document final values            ├── ✅ Generate Gerber files
-└── ✅ Confirm ready for PCB            └── ✅ Order & assemble
+└── ✅ Confirm ready for PCB            └── ✅ Order PCB
 ```
 
 ## 🔗 References
 
-**Main Tutorial**: [How to Design a Basic Distortion Pedal Circuit](https://www.wamplerpedals.com/blog/lifestyle-hobby/2024/08/how-to-design-a-basic-distortion-pedal-circuit/) - Brian Wampler
-
-**Main Component Sourcing**: Electronica Embajadores: https://www.electronicaembajadores.com/es/
+- **Main Tutorial**: [How to Design a Basic Distortion Pedal Circuit](https://www.wamplerpedals.com/blog/lifestyle-hobby/2024/08/how-to-design-a-basic-distortion-pedal-circuit/) - Brian Wampler
+- **Main Component Sourcing**: Electronica Embajadores - https://www.electronicaembajadores.com/es/
 
 ## 📊 Project Status
 
 | Phase | Status | Progress |
 |-------|--------|----------|
-| Phase 01: Breadboard | 🔄 In Progress | Components staged, awaiting build |
+| Phase 01: Breadboard | 🔄 In Progress | Components staged, building |
 | Phase 02: PCB Design | ⏳ Pending | Waiting for Phase 01 completion |
+| Phase 03: PCB Soldering | ⏳ Pending | - |
+| Phase 04: PCB Test | ⏳ Pending | - |
 
 ## 🛠️ Tools Needed
 
@@ -78,12 +81,13 @@ PHASE 01: Breadboard                    PHASE 02: PCB Design
 - Gerber viewer
 - PCB manufacturer (JLCPCB, PCBWay, Elecrow, etc.)
 
-## 📝 License
-
-See LICENSE file for details.
+**Phase 03 (PCB Soldering)**:
+- Soldering iron
+- Lead-free solder (0.8-1.0mm)
+- Solder sucker or desoldering wick
+- Brass cleaner or damp sponge
+- Helping hands tool
 
 ---
 
-**Last Updated**: April 7, 2026
-**Design Based On**: Wampler Basic Distortion Circuit (Aug 2024)
-**Build Status**: Phase 01 preparation
+**Last Updated**: April 7, 2026 | **Design Based On**: Wampler Basic Distortion Circuit (Aug 2024) | **Build Status**: Phase 02 - breadboard building
