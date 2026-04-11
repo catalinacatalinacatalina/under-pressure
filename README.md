@@ -1,6 +1,10 @@
-# Basic Distortion Pedal - Wampler Design
+# Under Pressure - Analog Distortion Pedal
 
 A complete documentation of designing and building an analog distortion pedal for electric guitars, based on Brian Wampler's minimal parts-count circuit design.
+
+### 🎵 About the Name
+
+**Under Pressure** is named after the iconic 1981 song by David Bowie & Queen. The name captures the essence of what a distortion pedal does: it takes the natural dynamics of a guitar signal and compresses it under intense pressure, forcing it through clipping stages that create the characteristic aggressive and driven tone. A fitting tribute to a guitar effect that has powered countless legendary performances.
 
 ## 🎯 Project Overview
 

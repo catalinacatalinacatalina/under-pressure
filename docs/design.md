@@ -1,4 +1,4 @@
-# Distortion Pedal Design - Wampler Basic Circuit
+# Under Pressure - Circuit Design
 
 ## Overview
 
