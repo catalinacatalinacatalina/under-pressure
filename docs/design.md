@@ -47,7 +47,6 @@ The intersection in all three stages is **vref** in the original schematic.
 It is hardly recommended in terms of space to use PCB components, but in order to mantain simplicity i'm going to use the same components of the breadboard phase. Please keep this in mind if you use the KiCad archive or if you print the PCB.
 
 
-
 ## Modifications from Wampler's Original
 1. This version excludes stage IV for simplicity.
 2. Small changes in capacitors due to the lack of capacitors when buyed
