@@ -16,6 +16,12 @@ This project is divided into **three distinct phases**, each with its own workfl
 2. **Phase 02: PCB Design** - Professional PCB layout and manufacturing
 3. **Phase 03: PCB Soldering** - Attaching the components to the designed PCB
 
+## ✅ Current Build Status
+
+- **Breadboard Prototype**: Complete and working with guitar + amp validation.
+- **PCB Design**: Complete (layout, DRC, Gerbers, and drill files generated).
+- **Manufacturer Order**: Pending submission.
+
 ## 📐 Circuit Architecture
 
 - ⚡ **Stage 1**: 9V battery with virtual ground (Vref) biasing
@@ -48,11 +54,11 @@ This project is divided into **three distinct phases**, each with its own workfl
 
 ### For PCB Design (Phase 02)
 
-1. Use KiCad to create schematics
+1. Use KiCad (9.0) to create schematics
 2. Design PCB layout
 3. Generate Gerber files
-4. Order from PCB manufacturer
-5. Solder components to PCB
+4. Run final DRC/ERC checks
+5. Place order with PCB manufacturer
 
 ### For PCB Soldering (Phase 03)
 ...
@@ -62,12 +68,12 @@ This project is divided into **three distinct phases**, each with its own workfl
 
 ```
 PHASE 01: Breadboard                    PHASE 02: PCB Design                    PHASE 03: PCB Soldering
-├── ✅ Understand circuit               ├── ✅ Verify breadboard values         ├── ✅ Prepare soldering tools
-├── ✅ Source components                ├── ✅ Create schematic in KiCad        ├── ✅ Solder components
-├── ✅ Build on breadboard              ├── ✅ Design PCB layout                ├── ✅ Inspect solder joints
-├── ✅ Test audio and tone              ├── ✅ Run design rule check (DRC)      └── ✅ Test PCB functionality
+├── ✅ Understand circuit               ├── ✅ Verify breadboard values         ├── ⏳ Prepare soldering tools
+├── ✅ Source components                ├── ✅ Create schematic in KiCad        ├── ⏳ Solder components
+├── ✅ Build on breadboard              ├── ✅ Design PCB layout                ├── ⏳ Inspect solder joints
+├── ✅ Test audio and tone              ├── ✅ Run design rule check (DRC)      └── ⏳ Test PCB functionality
 ├── ✅ Document final values            ├── ✅ Generate Gerber files
-└── ✅ Confirm ready for PCB            └── ✅ Order PCB
+└── ✅ Confirm ready for PCB            └── ⏳ Order PCB
 ```
 
 ## 🔗 References
@@ -79,22 +85,21 @@ PHASE 01: Breadboard                    PHASE 02: PCB Design                    
 
 | Phase | Status | Progress |
 |-------|--------|----------|
-| Phase 01: Breadboard | 🔄 In Progress | Components staged, building |
-| Phase 02: PCB Design | ⏳ Pending | Waiting for Phase 01 completion |
-| Phase 03: PCB Soldering | ⏳ Pending | - |
-| Phase 04: PCB Test | ⏳ Pending | - |
+| Phase 01: Breadboard | ✅ Done | Fully working and validated |
+| Phase 02: PCB Design | ✅ Done | Designed and ready for manufacturer order |
+| Phase 03: PCB Soldering | ⏳ Pending | Waiting for manufactured PCB delivery |
 
 ## 🛠️ Tools Needed
 
 **Phase 01 (Breadboard)**:
 - Solderless breadboard
 - Multimeter (for voltage/continuity testing)
-- 22 AWG hookup wire
+- Wires
 - Guitar & amplifier (for audio testing)
 
 **Phase 02 (PCB Design)**:
-- KiCad (free) or Eagle CAD software
-- Gerber viewer
+- KiCad
+- Gerber viewer (integrated in KiCad)
 - PCB manufacturer (JLCPCB, PCBWay, Elecrow, etc.)
 
 **Phase 03 (PCB Soldering)**:
@@ -106,4 +111,4 @@ PHASE 01: Breadboard                    PHASE 02: PCB Design                    
 
 ---
 
-**Last Updated**: April 7, 2026 | **Design Based On**: Wampler Basic Distortion Circuit (Aug 2024) | **Build Status**: Phase 02 - breadboard building
+**Last Updated**: April 25, 2026 | **Design Based On**: Wampler Basic Distortion Circuit (Aug 2024) | **Build Status**: Breadboard complete, PCB designed, pending manufacturer order

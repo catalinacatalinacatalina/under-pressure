@@ -1,15 +1,22 @@
 # Project Notes
 
+## Current Status
+
+- Breadboard prototype is fully working and validated.
+- PCB design is complete and fabrication files are generated.
+- PCB order is pending submission to the manufacturer.
+
 ## Design Phase
 
 - **Reference**: Brian Wampler - Basic Distortion Circuit Tutorial (Aug 2024)
 - **Design Approach**: Breadboard first, then PCB if satisfied with tone
+- **Result**: Breadboard tone validated, then moved to PCB design stage.
 
 ## Breadboard Build Checklist
 
 ### Pre-Build
 - [x] All components sourced
-- [ ] Breadboard layout sketched
+- [x] Breadboard layout sketched
 - [x] Power supply tested (should output 9V)
 - [x] Multimeter available for testing
 
@@ -20,16 +27,24 @@
 - [x] No voltage drops on ground rail
 
 ### Input Stage
-- [ ] Input capacitor functional
-- [ ] Gain potentiometer responds smoothly
-- [ ] Signal amplification confirmed
-- [ ] No oscillation
+- [x] Input capacitor functional
+- [x] Gain potentiometer responds smoothly
+- [x] Signal amplification confirmed
+- [x] No oscillation
 
 ### Inverting Stage with Clipping
-- [ ] Diodes installed (start with LEDs)
-- [ ] Clipping threshold achievable
-- [ ] Distortion is smooth, not harsh
-- [ ] Low-pass filter in place
+- [x] Diodes installed (start with LEDs)
+- [x] Clipping threshold achievable
+- [x] Distortion is smooth, not harsh
+- [x] Low-pass filter in place
+
+## PCB Readiness Checklist
+
+- [x] Schematic and footprints finalized in KiCad
+- [x] PCB layout completed
+- [x] DRC completed with no blocking errors
+- [x] Gerber and drill files generated
+- [ ] PCB order submitted to manufacturer
 
 ## References
 

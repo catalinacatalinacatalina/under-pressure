@@ -2,6 +2,8 @@
 
 This is the workflow I followed to go from breadboard prototype to a finished pedal PCB.
 
+Current status: Steps 1 to 5 are complete (schematic, layout, routing, and fabrication files). The PCB order is still pending submission to the manufacturer.
+
 ## 1. Create the Schematic in KiCad
 
 1. Open the project in the **Schematic Editor**.
@@ -54,6 +56,6 @@ Routing example:
 
 ![PCB render](../../images/render.png)
 
-## 6. Send to Manufacturing
+## 6. Send to Manufacturing (Pending)
 
 Choose your preferred PCB manufacturer and place the order.
